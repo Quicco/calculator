@@ -1,0 +1,72 @@
+:root {
+  --white: #fff;
+}
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom, rgb(127, 127, 195), rgb(79, 74, 81));
+}
+
+h1 {
+  margin: 2rem;
+}
+
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 5rem);
+  grid-template-rows: minmax(120px, auto) repeat(5, 5rem);
+  border-radius: 10px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+
+.display {
+  background-color: rgb(73, 73, 73);
+  border-radius: 10px 10px 0px 0px;
+  grid-column: span 4;
+  color: var(--white);
+  word-wrap: break-word;
+  word-break: break-all;
+  font-size: 2rem;
+  text-align: end;
+  padding: 1rem;
+}
+
+.display > div {
+  padding: 10px;
+  height: 2rem;
+}
+
+.calculator > button {
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.75rem;
+  border: 1px solid #41749c50;
+  outline: transparent;
+  background-color: rgba(79, 37, 94, 0.7);
+  overflow: hidden;
+}
+.calculator > button:hover {
+  background-color: rgba(60, 28, 72, 0.9);
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+#clear {
+  border-radius: 0px 0px 0px 10px;
+}
+#equal {
+  border-radius: 0 0 10px 0px;
+}

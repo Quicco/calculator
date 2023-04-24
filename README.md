@@ -11,3 +11,6 @@ At first, it was based off of **Maximilian's 'Unconventional Calculator'**. It h
 It was a great starting point, as it allowed us to get more comfortable working with DOM and try things out on a relaxed environment. However, we were soon wanting more of the calculator! Thus, we decided to start from the beginning and build a more conventional calculator!
 
 
+
+
+<img src="https://user-images.githubusercontent.com/103311774/234005635-7317e082-edfc-413d-9f67-ef762ba604de.png" width="500">

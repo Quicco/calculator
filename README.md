@@ -14,3 +14,8 @@ It was a great starting point, as it allowed us to get more comfortable working 
 
 
 <img src="https://user-images.githubusercontent.com/103311774/234005635-7317e082-edfc-413d-9f67-ef762ba604de.png" width="500">
+
+
+<a href="https://github.com/Quicco/calculator/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Quicco/calculator" />
+</a>

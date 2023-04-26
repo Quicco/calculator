@@ -57,7 +57,7 @@ function handleclearInput() {
 }
 
 function handleDecimal() {
-  // if the currentValue string doesnn't have a '.' in it
+  // if the currentValue String doesnn't have a '.' in it
   // insert a dot after the currentValue
   if (!currentValue.includes(decimal)) {
     currentValue += decimal;
